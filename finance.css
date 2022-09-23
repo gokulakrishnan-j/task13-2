@@ -1,0 +1,46 @@
+body{
+    margin: 24px;
+}
+.top{
+    font-weight: bolder;
+    letter-spacing: 2px;
+    color: rgb(102, 175, 60);
+    text-align: center;
+   padding-bottom:14px ;
+    font-size: 34px;
+    position: sticky;
+    top:0px;
+}
+#container{
+  
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    
+}
+
+.fullBody{
+   
+    padding: 14px;
+    text-align: center;
+    font-size: 20px;
+    color: aliceblue;
+    width: 220px;
+    height: 310px;
+    background-color: rgb(30, 32, 65);
+    background-image: url(https://www.freeiconspng.com/thumbs/stars-png/stars-28.png);
+    
+}
+
+.img{
+    width: 180px ;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    transition: .3s;
+}
+.img:hover{
+    transform: scale(1.3);
+    }
+.edit{
+    padding: 6px;
+}
